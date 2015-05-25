@@ -197,7 +197,7 @@ public class NotificationUtil {
 			if (notificationType == null) {
 				continue;
 			}
-			
+
 			PermissionChecker permissionChecker = null;
 			try {
 				permissionChecker = PermissionCheckerFactoryUtil.create(user);
